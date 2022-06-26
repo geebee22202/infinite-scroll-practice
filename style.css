@@ -1,12 +1,18 @@
 html {
-  /* prevents padding from adding extra width so we don't get horizontal scoll */
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  /* below makes sure page takes up entire screen even if content doesn't */
   min-height: 100vh;
-  /* background-color: dodgerblue */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: whitesmoke;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
